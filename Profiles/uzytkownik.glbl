@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>uzytkownik</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Adres serwisu</description>
+      <initValue>'https://www.saucedemo.com/index.html'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Login uzytkownika</description>
+      <initValue>'standard_user'</initValue>
+      <name>login_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Haslo uzytkownika</description>
+      <initValue>'secret_sauce'</initValue>
+      <name>pwd</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

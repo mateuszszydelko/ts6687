@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_6687 Logowanie do serwisu" time="26.842" tests="2" failures="0" errors="0">
+   <testsuite name="TS_6687 Logowanie do serwisu" tests="2" failures="0" errors="0" time="26.842" timestamp="2020-12-14 20:03:06" hostname="msi - DESKTOP-R51E0KH" id="Test Suites/TS_6687 Logowanie do serwisu">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\msi\\Katalon Studio\\TS_6687\\Reports\\20201214_200302\\TS_6687 Logowanie do serwisu\\20201214_200302"/>
+         <property name="logFiles" value="C:\\Users\\msi\\Katalon Studio\\TS_6687\\Reports\\20201214_200302\\TS_6687 Logowanie do serwisu\\20201214_200302\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="msi - DESKTOP-R51E0KH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Firefox 83.0"/>
+         <property name="hostAddress" value="192.168.0.108"/>
+         <property name="sessionId" value="741666ff-6b67-43ec-ac76-f079ef6cb51c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sprawdzenie produktów w serwisie/Logowanie do serwisu/Błędne logowanie" time="13.919" classname="Test Cases/Sprawdzenie produktów w serwisie/Logowanie do serwisu/Błędne logowanie" status="PASSED">
+         <system-out><![CDATA[2020-12-14 20:03:06 - [TEST_CASE][PASSED] - Test Cases/Sprawdzenie produktów w serwisie/Logowanie do serwisu/Błędne logowanie: Test Cases/Sprawdzenie produktów w serwisie/Logowanie do serwisu/Błędne logowanie
+
+2020-12-14 20:03:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-14 20:03:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-12-14 20:03:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-14 20:03:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-14 20:03:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/index.html"): Navigate to 'https://www.saucedemo.com/index.html' successfully
+
+2020-12-14 20:03:15 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/index.html' successfully
+
+2020-12-14 20:03:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), " standard_user"): Text ' standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2020-12-14 20:03:16 - [MESSAGE][PASSED] - Text ' standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2020-12-14 20:03:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2020-12-14 20:03:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2020-12-14 20:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2020-12-14 20:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2020-12-14 20:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909")): Object: 'Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' is clicked on
+
+2020-12-14 20:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' is clicked on
+
+2020-12-14 20:03:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-14 20:03:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprawdzenie produktów w serwisie/Logowanie do serwisu/Poprawne logowanie do serwisu TC_6687" time="12.198" classname="Test Cases/Sprawdzenie produktów w serwisie/Logowanie do serwisu/Poprawne logowanie do serwisu TC_6687" status="PASSED">
+         <system-out><![CDATA[2020-12-14 20:03:20 - [TEST_CASE][PASSED] - Test Cases/Sprawdzenie produktów w serwisie/Logowanie do serwisu/Poprawne logowanie do serwisu TC_6687: Test Cases/Sprawdzenie produktów w serwisie/Logowanie do serwisu/Poprawne logowanie do serwisu TC_6687
+
+2020-12-14 20:03:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-14 20:03:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-12-14 20:03:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-14 20:03:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-14 20:03:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/index.html"): Navigate to 'https://www.saucedemo.com/index.html' successfully
+
+2020-12-14 20:03:27 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/index.html' successfully
+
+2020-12-14 20:03:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2020-12-14 20:03:28 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2020-12-14 20:03:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2020-12-14 20:03:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2020-12-14 20:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2020-12-14 20:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2020-12-14 20:03:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/Page_Swag Labs/button_Open Menu' is clicked on
+
+2020-12-14 20:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Open Menu' is clicked on
+
+2020-12-14 20:03:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_Logout")): Object: 'Object Repository/Page_Swag Labs/a_Logout' is clicked on
+
+2020-12-14 20:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_Logout' is clicked on
+
+2020-12-14 20:03:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-14 20:03:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-14 20:03:06 - [TEST_SUITE][PASSED] - TS_6687 Logowanie do serwisu: Test Cases/Sprawdzenie produktów w serwisie/Logowanie do serwisu/Poprawne logowanie do serwisu TC_6687]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
